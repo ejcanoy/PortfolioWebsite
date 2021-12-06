@@ -1,17 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import Button from 'react-bootstrap/Button'
-import Navbar from 'react-bootstrap/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Resume from './components/Resume'
+import Header from './components/Header'
 
 function App() {
   return (
 
     <div className="container">
-      <header className="">
+      <Header></Header>
       <Resume />
-      </header>
     </div>
   );
 }
